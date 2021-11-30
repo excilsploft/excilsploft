@@ -1,0 +1,6 @@
+name: pdoc
+description: 'wrap the official pandoc image and add a missing *sty'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+

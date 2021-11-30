@@ -15,7 +15,8 @@ jobs:
         with:
           ref : ${{ github.head_ref }}
       - name: convert
-        uses: docker://pandoc/ubuntu-latex:2.16.2
+        uses: ./
+        id: pdoc
         with:
           args: >-
             data.md
