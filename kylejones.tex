@@ -1,39 +1,26 @@
 \documentclass{res}
 \begin{document}
-\name{Kyle Jones}
-\contact{5415 SE Schiller St.}{Portland, OR 97206}{503-915-8523}{kyle@excilsploft.com}{https://github.com/excilsploft}
+\name{$contact.name$}
+\contact{$contact.addr$}{$contact.city$, $contact.state$ $contact.zip$}{$contact.phone$}{$contact.email$}{$contact.github$}
 \section{Work History}
-\datedsubsection{Esri}{2019-Present}
-Senior Software Engineer/DevOps
+$for(workhistory)$
+\datedsubsection{$workhistory.company$}{$workhistory.year$}
+$workhistory.title$
 \workitems
-{Set up and administer build environment (Jenkins/Github Actions)}
-{Developed uniform build pipelines for 20+ repos}
-{Wrote utilities for monitoring and build status}
-\datedsubsection{Nike Inc.}{2013-2019}
-Virtualization/Automation Engineer
-\workitems
-{Developed bare metal configuration and provisioning services}
-{Developed storage array provisioning and operational tools}
-{Developed tools for inventorying global hardware fleet}
-\datedsubsection{IHS Inc.}{2009-2013}
-Application Support Engineer
-\workitems
-{Developed scripts for interrogating server fleet for packages, patches and processes}
-{Supported 100s of applications on Solaris, Windows and Linux}
-{Administered IBM FileNet P8 platform}
+$for(workhistory.workitems)$
+{$workhistory.workitems$}
+$endfor$
+$endfor$
 \section{Skills and Programming Languages}
 \begin{itemize}
 \setlength\itemsep{-0.5em}
-\item\normalsize Go (Golang)
-\item Python
-\item Groovy
-\item Bash
-\item Assorted CI/CD products
-\item Container runtimes and orchestration
-\item Various public and on-premise cloud compute platforms
+$for(skills)$
+\item\normalsize $skills$
+$endfor$
 \end{itemize}
 \section{Education}
-\datedsubsection{Portland Community College}{2001-2003}
-\datedsubsection{Utah Valley State College}{1995-1997}
+$for(education)$
+\datedsubsection{$education.school$}{$education.year$}
+$endfor$
 \end{document}
 

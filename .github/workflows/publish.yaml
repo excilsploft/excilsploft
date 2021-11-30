@@ -1,0 +1,36 @@
+---
+
+name: publish profile
+on:
+  push:
+    branches: main
+
+jobs:
+  pdf:
+    name: pdf
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref : ${{ github.head_ref }}
+      - name: convert
+        uses: docker://pandoc/ubuntu-latex:2.16.2
+        with:
+          args: >-
+            data.md
+            --template kylejones.tex
+            -o kylejones.pdf
+      - name: publish
+        uses: docker://pandoc/ubuntu-latex:2.16.2
+        with:
+          args: >-
+            data.md
+            --template kylejones.md
+            -o README.md
+      - name: commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          file_pattern: ./README.md ./*.pdf
+          commit_message: publish
