@@ -15,7 +15,7 @@ jobs:
         with:
           ref : ${{ github.head_ref }}
       - name: convert
-        uses: ./
+        uses: ./.github/actions/pdoc
         id: pdoc
         with:
           args: >-
