@@ -5,7 +5,7 @@
 \section{Work History}
 $for(workhistory)$
 \datedsubsection{$workhistory.company$}{$workhistory.year$}
-$workhistory.title$
+\textit{$workhistory.title$}
 \workitems
 $for(workhistory.workitems)$
 {$workhistory.workitems$}
@@ -19,8 +19,11 @@ $for(skills)$
 $endfor$
 \end{itemize}
 \section{Education}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
 $for(education)$
-\datedsubsection{$education.school$}{$education.year$}
+\item\normalsize{$education.school$} - \normalsize{$education.year$}
 $endfor$
+\end{itemize}
 \end{document}
 

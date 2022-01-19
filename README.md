@@ -8,20 +8,21 @@ https://github.com/excilsploft
 
 ## Work History
 ### Esri  2019-Present
-**Senior Software Engineer/Devops**
-  - Set up and administer build environment (Jenkins/Github Actions)
+**Senior Software Engineer/Devops Engineer**
+  - Architected, automated, deployed and administer build environment
   - Developed uniform build pipelines for 20+ repos
-  - Wrote utilities for monitoring and build status
+  - Wrote utilities for monitoring and managing builds
 ### Nike Inc.  2013-2019
 **Virtualization/Automation Engineer**
-  - Developed bare metal configuration and provision services
+  - Developed bare metal configuration and provisioning services
   - Developed storage array provisioning and operational tools
-  - Developed tools for inventorying global hardware fleet
+  - Developed tools for inventorying global server fleet
 ### IHS Inc.  2009-2013
 **Application Support Engineer**
   - Developed scripts for interrogating server fleet for packages,
 patches and processes
-  - Supported 100s of applications on Solaris, Windows and Linux
+  - Supported, deployed and troubleshot 100s of applications on Solaris,
+Windows and Linux
   - Administered IBM FileNet P8 platform
 
 ## Skills and Programming Languages
