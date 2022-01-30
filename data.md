@@ -39,9 +39,9 @@ skills:
 - Python
 - Groovy
 - Bash
-- Assorted CI/CD products
-- Container runtimes and orchestration
-- Various public and on-premise cloud compute platforms
+- Assorted CI/CD products (ie Jenkins, Github Actions, CircleCI)
+- Container runtimes and orchestration (ie Docker, Podman, Nomad)
+- Various public and on-premise cloud compute platforms (ie AWS, VMware VSphere, OpenStack)
 
 education:
 - school: Portland Community College
