@@ -8,7 +8,11 @@ contact:
   phone: 503-915-8523
   email: 'kyle@excilsploft.com'
   github: https://github.com/excilsploft
-
+qualifications:
+  - 17 years in IT and software development.
+  - Experience supporting the full stack, from hardare to users.
+  - Experience in environments ranging from small businesses to large enterprises.
+  - Self-directed and a quick learner.
 workhistory:
 - company: Esri
   year: 2019-Present

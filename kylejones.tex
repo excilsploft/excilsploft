@@ -2,6 +2,13 @@
 \begin{document}
 \name{$contact.name$}
 \contact{$contact.addr$}{$contact.city$, $contact.state$ $contact.zip$}{$contact.phone$}{$contact.email$}{$contact.github$}
+\section{Qualifications}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+$for(qualifications)$
+\item\normalsize $qualifications$
+$endfor$
+\end{itemize}
 \section{Work History}
 $for(workhistory)$
 \datedsubsection{$workhistory.company$}{$workhistory.year$}
@@ -26,4 +33,3 @@ $for(education)$
 $endfor$
 \end{itemize}
 \end{document}
-
