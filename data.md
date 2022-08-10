@@ -28,14 +28,14 @@ workhistory:
   workitems:
   - 'Developed bare metal configuration and provisioning services'
   - 'Developed storage array provisioning and operational tools'
-  - 'Developed tools for inventorying global server fleet'
+  - 'Developed tools for interrogating and creating an inventory of the global server fleet'
 
 - company: IHS Inc.
   year: 2009-2013
   title: Application Support Engineer
   workitems:
   - 'Developed scripts for interrogating server fleet for packages, patches and processes'
-  - 'Supported, deployed and troubleshot 100s of applications on Solaris, Windows and Linux'
+  - 'Supported, deployed and triaged 100s of applications on Solaris, Windows and Linux'
   - 'Administered IBM FileNet P8 platform'
 
 skills:
