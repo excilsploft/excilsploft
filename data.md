@@ -10,15 +10,15 @@ contact:
   github: https://github.com/excilsploft
 qualifications:
   - 17 years in IT and software development.
-  - Experience supporting the full stack, from hardare to users.
-  - Experience in environments ranging from small businesses to large enterprises.
-  - Self-directed and a quick learner.
+  - Experience supporting the full stack, from hardware to users
+  - Experience in environments ranging from small businesses to large enterprises
+  - Self-directed and a quick learner
 workhistory:
 - company: Esri
   year: 2019-Present
   title: Senior Software Engineer/Devops Engineer
   workitems:
-  - 'Architected, automated, deployed and administer build environment'
+  - 'Architect, automate, deploy and administer build and site-hosting environment'
   - 'Developed uniform build pipelines for 20+ repos'
   - 'Wrote utilities for monitoring and managing builds'
 
