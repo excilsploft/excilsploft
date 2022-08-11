@@ -1,10 +1,10 @@
 ---
 contact:
   name: Kyle Jones
-  addr: 5415 SE Schiller St.
-  city: Portland
+  addr: 32862 NE Chamberlain Road
+  city: Corbett
   state: OR
-  zip: 97206
+  zip: 972019
   phone: 503-915-8523
   email: 'kyle@excilsploft.com'
   github: https://github.com/excilsploft
