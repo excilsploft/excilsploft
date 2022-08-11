@@ -1,6 +1,6 @@
 ## Kyle Jones
-5415 SE Schiller St.  
-Portland, OR 97206  
+32862 NE Chamberlain Road  
+Corbett, OR 972019  
 503-915-8523  
 kyle\@excilsploft.com  
 https://github.com/excilsploft  
