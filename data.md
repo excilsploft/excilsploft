@@ -16,7 +16,7 @@ qualifications:
 workhistory:
 - company: Esri
   year: 2019-Present
-  title: Senior Software Engineer/Devops Engineer
+  title: Principal Software Engineer/Devops Engineer
   workitems:
   - 'Architected, automated, deployed and maintains CI/CD system and site-hosting environment'
   - 'Developed build pipelines for 30+ repos in both Jenkins and Github Actions'
