@@ -19,7 +19,7 @@ workhistory:
   title: Principal Software Engineer/Devops Engineer
   workitems:
   - 'Architected, automated, deployed and maintains CI/CD system and site-hosting environment'
-  - 'Developed build pipelines for 30+ repos in both Jenkins and Github Actions'
+  - 'Developed build and deploy pipelines for 30+ repos in both Jenkins and Github Actions'
   - 'Wrote utilities for monitoring and managing buildsystems and build infrastructure'
 
 - company: Nike Inc.
