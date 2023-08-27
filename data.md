@@ -9,33 +9,33 @@ contact:
   email: 'kyle@excilsploft.com'
   github: https://github.com/excilsploft
 qualifications:
-  - 17 years in IT and software development.
-  - Experience supporting the full stack, from hardware to users
-  - Experience in environments ranging from small businesses to large enterprises
-  - Self-directed and a quick learner
+  - 18 years in IT and software development.
+  - Experience supporting the full stack, from hardware to users.
+  - Experience in environments ranging from small businesses to large enterprises.
+  - Self-directed and a quick learner.
 workhistory:
 - company: Esri
   year: 2019-Present
   title: Senior Software Engineer/Devops Engineer
   workitems:
-  - 'Architect, automate, deploy and administer build and site-hosting environment'
-  - 'Developed uniform build pipelines for 20+ repos'
-  - 'Wrote utilities for monitoring and managing builds'
+  - 'Architected, automated, deployed and maintains CI/CD system and site-hosting environment'
+  - 'Developed build pipelines for 30+ repos in both Jenkins and Github Actions'
+  - 'Wrote utilities for monitoring and managing buildsystems and build infrastructure'
 
 - company: Nike Inc.
   year: 2013-2019
   title: Virtualization/Automation Engineer
   workitems:
-  - 'Developed bare metal configuration and provisioning services'
+  - 'Developed bare metal configuration and provisioning services for servers in the datacenter, offices and retail locations'
   - 'Developed storage array provisioning and operational tools'
-  - 'Developed tools for interrogating and creating an inventory of the global server fleet'
+  - 'Developed tools for interrogating assorted equipment and creating an inventory of the global server fleet'
 
 - company: IHS Inc.
   year: 2009-2013
   title: Application Support Engineer
   workitems:
-  - 'Developed scripts for interrogating server fleet for packages, patches and processes'
-  - 'Supported, deployed and triaged 100s of applications on Solaris, Windows and Linux'
+  - 'Developed scripts for interrogating server fleet for packages, patches and anomalous processes'
+  - 'Supported, deployed and triaged hundreds of applications running on Solaris, Windows and Linux servers'
   - 'Administered IBM FileNet P8 platform'
 
 skills:
@@ -43,9 +43,9 @@ skills:
 - Python
 - Groovy
 - Bash
-- Assorted CI/CD products (e.g. Jenkins, Github Actions, CircleCI)
-- Container runtimes and orchestration (e.g. Docker, Podman, Nomad)
-- Various public and on-premise cloud compute platforms (e.g. AWS, VMware VSphere, OpenStack)
+- Assorted CI/CD products (e.g. Jenkins, GitHub Actions, CircleCI)
+- Container runtimes and orchestration tools (e.g. Docker, Podman, Nomad)
+- Various public and on-premise cloud compute and virtualization platforms (e.g. AWS, VMware, OpenStack)
 
 education:
 - school: Portland Community College

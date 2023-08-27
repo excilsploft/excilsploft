@@ -1,8 +1,9 @@
 SHELL := /bin/sh
-TEMPLATE_TEX := kylejones.tex
-TEMPLATE_MD := kylejones.md
+FILE_PREFIX := kylejones
+TEMPLATE_TEX := $(addsuffix .tex, $FILE_PREFIX)
+TEMPLATE_MD := $(addsuffix .md, $FILE_PREFIX)
 DATAFILE := data.md
-PDF := kylejones.pdf
+PDF := $(addsuffix .pdf, $FILE_PREFIX)
 MARKDOWN := README.md
 
 default: $(PDF) $(MARKDOWN)
