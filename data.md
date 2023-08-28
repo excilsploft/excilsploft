@@ -11,8 +11,7 @@ contact:
 qualifications:
   - 18 years in IT and software development.
   - Experience supporting the full stack, from hardware to users.
-  - Experience in environments ranging from small businesses to large enterprises.
-  - Self-directed and a quick learner.
+  - Experience in environments ranging from small businesses to large enterprises, in myriad roles.
 workhistory:
 - company: Esri
   year: 2019-Present
