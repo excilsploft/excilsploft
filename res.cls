@@ -20,7 +20,6 @@
 \definecolor{kyle_black}{RGB}{1,1,1}
 
 
-
 % section format
 \titleformat{\section}           % customized section commmand
     {\Large\scshape\raggedright} % large, small capitals, left aligned
@@ -53,16 +52,18 @@
    \large{#1}\\
    \large{#2}\\
    \large{#3}\\
-   \large\href{mailto:#4}{#4}\\
+   \large\href{mailto:#4}{\kyleorange{#4}}\\
    \large\href{#5}{#5}%
 }
 
-\newcommand{\workitems}[3]{%
+\newcommand{\workitems}[5]{%
    \begin{itemize}
    \setlength\itemsep{-0.5em}
    \item\normalsize{#1}
    \item\normalsize{#2}
    \item\normalsize{#3}
+   \item\normalsize{#4}
+   \item\normalsize{#5}
    \end{itemize}%
 }
 
