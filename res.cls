@@ -52,7 +52,7 @@
    \large{#1}\\
    \large{#2}\\
    \large{#3}\\
-   \large\href{mailto:#4}{\kyleorange{#4}}\\
+   \large\href{mailto:#4}{#4}\\
    \large\href{#5}{#5}%
 }
 

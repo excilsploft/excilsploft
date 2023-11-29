@@ -1,7 +1,40 @@
-## $contact.name$
-$contact.addr$  
-$contact.city$, $contact.state$ $contact.zip$  
-$contact.phone$  
-$contact.email$  
-$contact.github$  
-[download resume](./kylejones.pdf)
+\documentclass{res}
+\hypersetup{pdftex,
+    pdfauthor={$contact.name$},
+    pdftitle={Resume},
+    pdfsubject={DevOps},
+    pdfkeywords={AWS Kubernetes Containers SRE DataCenter Python Go Golang SNMP}}
+\begin{document}
+\name{$contact.name$}
+\contact{$contact.addr$}{$contact.city$, $contact.state$ $contact.zip$}{$contact.phone$}{$contact.email$}{$contact.github$}
+\section{Qualifications}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+$for(qualifications)$
+\item\normalsize $qualifications$
+$endfor$
+\end{itemize}
+\section{Work History}
+$for(workhistory)$
+\datedsubsection{$workhistory.company$}{$workhistory.year$}
+\textit{$workhistory.title$}
+\workitems
+$for(workhistory.workitems)$
+{$workhistory.workitems$}
+$endfor$
+$endfor$
+\section{Skills and Programming Languages}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+$for(skills)$
+\item\normalsize $skills$
+$endfor$
+\end{itemize}
+\section{Education}
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+$for(education)$
+\item\normalsize{$education.school$} - \normalsize{$education.year$}
+$endfor$
+\end{itemize}
+\end{document}
