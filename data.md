@@ -17,7 +17,7 @@ workhistory:
   year: 2019-Present
   title: Principal Software Engineer/Devops Engineer
   workitems:
-  - 'Developed container based build system for a large website deployed daily.'
+  - 'Developed container based build system for a large website that is deployed daily.'
   - 'Developed dynamic site hosting environment based on git workflows that provisions sites dynamically.'
   - 'Wrote utilities for monitoring and managing builds and deployments.'
   - 'Provisioned and administered compute cluster for running container and non-container workloads.'
