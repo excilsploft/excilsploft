@@ -29,9 +29,9 @@ workhistory:
   workitems:
   - 'Developed bare metal server configuration and provisioning services.'
   - 'Developed storage array provisioning and operational tools.'
-  - 'Developed tools for cataloging and maintaining a globally deployed server fleet'
-  - 'Administered OpenStack based private cloud'
-  - 'Administered a large, globally distributed VMware hypervisor environment'
+  - 'Developed tools for cataloging and maintaining a globally deployed server fleet.'
+  - 'Administered OpenStack based private cloud.'
+  - 'Administered a large, globally distributed VMware hypervisor environment.'
 
 skills:
 - Go (Golang)
