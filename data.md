@@ -17,21 +17,21 @@ workhistory:
   year: 2019-Present
   title: Principal Software Engineer/Devops Engineer
   workitems:
-  - 'Developed container based build system'
-  - 'Developed dynamic site hosting environment based on git workflows'
-  - 'Wrote utilities for monitoring and managing builds and deployments'
-  - 'Provision and administered compute cluster for running container workloads'
-  - 'Migrated Jenkins jobs to Github Actions'
+  - 'Developed container based build system for a large website deployed daily.'
+  - 'Developed dynamic site hosting environment based on git workflows that provisions destroys sites dynamically.'
+  - 'Wrote utilities for monitoring and managing builds and deployments.'
+  - 'Provisioned and administered compute cluster for running container and non-container workloads.'
+  - 'Migrated Jenkins jobs to Github Actions utilizing custom actions.'
 
 - company: Nike Inc.
   year: 2013-2019
   title: Virtualization/Automation Engineer
   workitems:
-  - 'Developed bare metal server configuration and provisioning services'
-  - 'Developed storage array provisioning and operational tools'
-  - 'Developed tools for cataloging and maintaining a global server fleet'
+  - 'Developed bare metal server configuration and provisioning services.'
+  - 'Developed storage array provisioning and operational tools.'
+  - 'Developed tools for cataloging and maintaining a globally deployed server fleet'
   - 'Administered OpenStack based private cloud'
-  - 'Administered a large VMware hypervisor environment'
+  - 'Administered a large, globally distributed VMware hypervisor environment'
 
 skills:
 - Go (Golang)
