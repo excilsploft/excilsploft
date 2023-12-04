@@ -18,7 +18,7 @@ workhistory:
   title: Principal Software Engineer/Devops Engineer
   workitems:
   - 'Developed container based build system for a large website that is deployed daily.'
-  - 'Developed dynamic site hosting environment based on git workflows that provisions sites dynamically.'
+  - 'Developed dynamic site hosting environment based on git workflows that provision sites dynamically.'
   - 'Wrote utilities for monitoring and managing builds and deployments.'
   - 'Provisioned and administered compute cluster for running container and non-container workloads.'
   - 'Migrated Jenkins jobs to Github Actions utilizing custom actions.'
