@@ -47,13 +47,10 @@
   \Huge{#1}%
 }
 
-\newcommand{\contact}[5]{%
+\newcommand{\contact}[2]{%
    \\
-   \large{#1}\\
-   \large{#2}\\
-   \large{#3}\\
-   \large\href{mailto:#4}{#4}\\
-   \large\href{#5}{#5}%
+   \large\href{mailto:#1}{#1}\\
+   \large\href{#2}{#2}%
 }
 
 \newcommand{\workitems}[5]{%

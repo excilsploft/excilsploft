@@ -9,7 +9,7 @@ contact:
   email: 'kyle@excilsploft.com'
   github: https://github.com/excilsploft
 qualifications:
-  - 18 years in IT and software development.
+  - 20 years in IT and software development.
   - Experience supporting the full stack, from hardware to end users.
   - Experience in environments ranging from small businesses to large enterprises.
 workhistory:
